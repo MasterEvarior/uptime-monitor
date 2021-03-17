@@ -15,8 +15,8 @@ status-website:
   logoUrl: https://avatars.githubusercontent.com/u/36074738
   name: "Giannin's Status Page"
   theme: dark
-  introTitle: "Uptime monitor and status page for my website(s)"
-  introMessage: "Status page for all *.giannin.dev websites. Uses the excellent [Upptime project](https://upptime.js.org)."
+  introTitle: "Status Page for my Website(s)"
+  introMessage: "Status page for all websites under the .giannin.dev domain. Uses the excellent [Upptime project](https://upptime.js.org)."
   navbar:
     - title: Status
       href: /
