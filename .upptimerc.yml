@@ -1,4 +1,3 @@
-# Change these first
 owner: MasterEvarior # Your GitHub username
 repo: uptime-monitor # Your GitHub repository name
 
@@ -9,15 +8,15 @@ sites:
   - name: Aare Guru Dashboard
     url: https://aare-guru-dashboard.giannin.dev
   - name: Cocktail Menu
-    url: https://masterevarior.github.io/cocktail-menu/#/
+    url: https://cocktail-menu.giannin.dev
 
 status-website:
   cname: status.giannin.dev
   logoUrl: https://avatars.githubusercontent.com/u/36074738
-  name: "Giannin's Uptime Monitor"
+  name: "Giannin's Status Page"
   theme: dark
   introTitle: "Uptime monitor and status page for my website(s)"
-  introMessage: This is a status page which uses **real-time** data from our [GitHub repository](https://github.com/MasterEvarior/uptime-monitor). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: "Status page for all *.giannin.dev websites. Uses the excellent [Upptime project](https://upptime.js.org)."
   navbar:
     - title: Status
       href: /
@@ -29,3 +28,12 @@ status-website:
 skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: true
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
