@@ -14,7 +14,7 @@ status-website:
   cname: status.giannin.dev
   logoUrl: https://avatars.githubusercontent.com/u/36074738
   name: "Giannin's Status Page"
-  theme: dark
+  themeUrl: https://status.giannin.dev/darker-theme.css
   introTitle: "Status Page for my Website(s)"
   introMessage: "Status page for all websites under the .giannin.dev domain. Uses the excellent [Upptime project](https://upptime.js.org)."
   navbar:
