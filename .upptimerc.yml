@@ -12,7 +12,7 @@ sites:
     url: https://masterevarior.github.io/cocktail-menu/#/
 
 status-website:
-  baseUrl: /uptime-monitor
+  cname: status.giannin.dev
   logoUrl: https://avatars.githubusercontent.com/u/36074738
   name: "Giannin's Uptime Monitor"
   theme: dark
@@ -21,6 +21,8 @@ status-website:
   navbar:
     - title: Status
       href: /
+    - title: About me
+      href: https://giannin.dev
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
       
