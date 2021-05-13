@@ -40,17 +40,17 @@
     "url": "https://cocktail-menu.giannin.dev",
     "icon": "https://favicons.githubusercontent.com/cocktail-menu.giannin.dev",
     "slug": "cocktail-menu",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 232,
-    "timeDay": 220,
-    "timeWeek": 288,
-    "timeMonth": 264,
-    "timeYear": 232,
+    "time": 231,
+    "timeDay": 191,
+    "timeWeek": 274,
+    "timeMonth": 261,
+    "timeYear": 231,
     "dailyMinutesDown": {}
   }
 ]
